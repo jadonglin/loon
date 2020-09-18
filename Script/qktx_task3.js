@@ -168,17 +168,18 @@ const llUrl1 = {url:"https://appv8.qukantianxia.com/qktx-activity/activity/getEv
 
      if(obj.result==1011)
    {
-    console.log("debug222222222")
+    console.log("debug222222222:"+obj.data.firstBoxOpenStatus)
      if(obj.data.firstBoxOpenStatus==0)
      var fbox="❎";
      else  var fbox="✅";
-     console.log("debug3333333")    
+    console.log("debug3333333:"+obj.data.secondBoxOpenStatus)    
       if(obj.data.secondBoxOpenStatus==0)
           var sbox="❎";
           else  var sbox="✅";
-          console.log("debug444444444")
+    console.log("debug444444444")
+  
      result2="[任务进度]"+obj.data.completedNum+"/"+obj.data.everydayTaskList.length+"\n"+"[第1个宝箱]  "+fbox+"[第2个宝箱]"+sbox+"\n";
-   
+     console.log("debug444444444:"+result2)
 if(obj.data.everydayTaskList[1].todayCount!==3)
 qktx_task_art();
 
@@ -224,7 +225,9 @@ console.log("debug0000000000")
           result2="[任务进度]获取失败❌"+"\n"+"[第1个宝箱]获取失败❌"+"[第2个宝箱]获取失败❌"+"\n";qktx_msg(""+"\n"+result2,qktx_nm);
         }
      
- })}
+ }
+ console.log("debug end")
+ )}
 
 function qktx_getTaskAward(flag)
 {
