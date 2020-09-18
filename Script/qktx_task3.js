@@ -163,7 +163,7 @@ const llUrl1 = {url:"https://appv8.qukantianxia.com/qktx-activity/activity/getEv
      if(data!=null){
      var obj=JSON.parse(data);
      
-     console.log("debug111111111111")
+     console.log("debug111111111111:"+obj.result)
 
 
      if(obj.result==1)
