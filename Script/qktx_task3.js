@@ -156,7 +156,7 @@ function qktx_daytask()
 {
   var tt=qukantianxia;var result1="";
   var result2="";
-const llUrl1 = {url:"https://appv8.qukantianxia.com/qktx-activity/activity/getEverydayTasks?"+qktx_urlck,headers:{"User-Agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 NetType/4G Qktx"},timeout:60};
+const llUrl1 = {url:"https://appv8.qukantianxia.com/qktx-activity/activity/getEverydayTasks?"+"appv=2.4.3&channel=defaultChannel&deviceId=5CAB349039A44C94A25389A435D64C33&os=2&osVersion=&token=881c351c5152f8b22f26e2ca7f14ec15&versionName=2.4.3&versionCode=&adsAppIds=&apiAdvertData=%22%7B%5Cn++%5C%22devicetype%5C%22+:+%5C%221%5C%22,%5Cn++%5C%22anid%5C%22+:+%5C%22%5C%22,%5Cn++%5C%22idfa%5C%22+:+%5C%225CAB349039A44C94A25389A435D64C33%5C%22,%5Cn++%5C%22osv%5C%22+:+%5C%2214.2%5C%22,%5Cn++%5C%22appversion%5C%22+:+%5C%222.4.3%5C%22,%5Cn++%5C%22os%5C%22+:+%5C%222%5C%22,%5Cn++%5C%22sh%5C%22+:+%5C%22736%5C%22,%5Cn++%5C%22imei%5C%22+:+%5C%22%5C%22,%5Cn++%5C%22make%5C%22+:+%5C%22apple%5C%22,%5Cn++%5C%22conn%5C%22+:+%5C%221%5C%22,%5Cn++%5C%22",headers:{"User-Agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 NetType/4G Qktx"},timeout:60};
 
 
    $iosrule.get(llUrl1, function(error, response, data) {
