@@ -272,6 +272,11 @@ function qktx_cxdaysign(r)
 if(data!=null){
     if(log==1)console.log("签到查询")
      var obj=JSON.parse(data);
+
+     console.log("debug  url11111:"+qktx_urlck)
+     console.log("debug11111data111:"+data)
+     console.log("debug2result222:"+result)
+     
      if(obj.result==1)
  {r+=" [天数]"+obj.data.signTotalNum;}
 }
