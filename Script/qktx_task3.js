@@ -163,8 +163,19 @@ const llUrl1 = {url:"https://appv8.qukantianxia.com/qktx-activity/activity/getEv
      if(data!=null){
      var obj=JSON.parse(data);
      
-     console.log("debug111111111111:"+obj.result)
-   
+     console.log("debug111111111111:"+qktx_urlck)
+     console.log("debug2222222:"+qktx_userck)
+     
+     if(obj.result==1)
+   {
+    console.log("debug222222222:"+obj.data.firstBoxOpenStatus)
+     if(obj.data.firstBoxOpenStatus==0)
+     var fbox="❎";
+     else  var fbox="✅";
+    console.log("debug3333333:"+obj.data.secondBoxOpenStatus)    
+      if(obj.data.secondBoxOpenStatus==0)
+          var sbox="❎";
+          else  var sbox="✅";
     console.log("debug444444444")
   
      result2="[任务进度]"+obj.data.completedNum+"/"+obj.data.everydayTaskList.length+"\n"+"[第1个宝箱]  "+fbox+"[第2个宝箱]"+sbox+"\n";
@@ -206,7 +217,7 @@ if(i==obj.data.everydayTaskList.length-1)
 qktx_msg(""+"\n"+result2,qktx_nm);
 }
 console.log("debug10")
-
+}
 console.log("debug0000000000")
    }else
         {
