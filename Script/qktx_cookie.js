@@ -87,7 +87,7 @@ else if(urlval.indexOf("qktx-activity/activity/getSignDetail?")>=0)
   
   var ck_url=urlval.substring(urlval.indexOf("getSignDetail?")+14,urlval.length);
  var so= $iosrule.write(ck_url,qktx_urlckname);if (so==true) 
- papa(tt,"[阅读ck1]","写入" + tt + "阅读数据成功");}
+ papa(tt,"[每日任务ck]","写入" + tt + "每日任务数据成功");}
 
 
 else
