@@ -217,7 +217,7 @@ qktx_msg(""+"\n"+result2,qktx_nm);
 }
 console.log("debug10")
 }
-
+console.log("debug0000000000")
    }else
         {
           console.log("debug999999999")
