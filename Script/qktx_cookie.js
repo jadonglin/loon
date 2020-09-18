@@ -82,10 +82,10 @@ else if(urlval.indexOf("user/userPoint.do?")>=0)
 
 
 
-else if(urlval.indexOf("qktx-activity/activity/getSignDetail?")>=0)
+else if(urlval.indexOf("qktx-activity/activity/getEverydayTasks?")>=0)
 {
   
-  var ck_url=urlval.substring(urlval.indexOf("getSignDetail?")+14,urlval.length);
+  var ck_url=urlval.substring(urlval.indexOf("getEverydayTasks?")+17,urlval.length);
  var so= $iosrule.write(ck_url,qktx_urlckname);if (so==true) 
  papa(tt,"[每日任务ck]","写入" + tt + "每日任务数据成功"+ck_url);}
 
