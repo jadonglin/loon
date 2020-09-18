@@ -157,13 +157,14 @@ function qktx_daytask()
   var tt=qukantianxia;var result1="";
   var result2="";
 const llUrl1 = {url:"https://appv8.qukantianxia.com/qktx-activity/activity/getEverydayTasks?"+qktx_urlck,headers:{"User-Agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 NetType/4G Qktx"},timeout:60};
-  
+console.log("debug  url11111:"+url)
+
    $iosrule.get(llUrl1, function(error, response, data) {
      if(log==1)console.log("获取每日任务")
      if(data!=null){
      var obj=JSON.parse(data);
      
-     console.log("debug111111111111:"+qktx_urlck)
+     console.log("debug11111data111:"+data)
      console.log("debug2222222:"+result)
      
      if(obj.result==1)
