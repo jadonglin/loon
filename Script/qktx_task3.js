@@ -163,7 +163,8 @@ const llUrl1 = {url:"https://appv8.qukantianxia.com/qktx-activity/activity/getEv
      if(log==1)console.log("获取每日任务")
      if(data!=null){
      var obj=JSON.parse(data);
-     console.log("debug  url11111:"+qktx_urlck)
+     console.log("debug11url11111:"+qktx_urlck)
+     console.log("debug11url11111:"+qktx_urlrck)
      console.log("debug11111data111:"+data)
      console.log("debug2result222:"+result)
      
@@ -273,8 +274,7 @@ if(data!=null){
     if(log==1)console.log("签到查询")
      var obj=JSON.parse(data);
 
-     console.log("debug  url11111:"+qktx_urlck)
-     console.log("debug  url11111:"+qktx_urlrck)
+     console.log("debugurl11111:"+qktx_urlck)
      console.log("debug11111data111:"+data)
      console.log("debug2result222:"+result)
      
