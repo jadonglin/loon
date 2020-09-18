@@ -166,7 +166,7 @@ const llUrl1 = {url:"https://appv8.qukantianxia.com/qktx-activity/activity/getEv
      console.log("debug111111111111:"+obj.result)
 
 
-     if(obj.result==1)
+     if(obj.result==1011)
    {
     console.log("debug222222222")
      if(obj.data.firstBoxOpenStatus==0)
