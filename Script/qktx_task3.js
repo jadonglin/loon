@@ -274,6 +274,7 @@ if(data!=null){
      var obj=JSON.parse(data);
 
      console.log("debug  url11111:"+qktx_urlck)
+     console.log("debug  url11111:"+qktx_urlrck)
      console.log("debug11111data111:"+data)
      console.log("debug2result222:"+result)
      
