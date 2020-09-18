@@ -164,10 +164,11 @@ const llUrl1 = {url:"https://appv8.qukantianxia.com/qktx-activity/activity/getEv
      var obj=JSON.parse(data);
      
      console.log("debug111111111111:"+obj.result)
-
+     console.log("debug222222222")
 
    
     console.log("debug222222222:"+obj.data.firstBoxOpenStatus)
+    console.log("debug22333322")
      if(obj.data.firstBoxOpenStatus==0)
      var fbox="❎";
      else  var fbox="✅";
