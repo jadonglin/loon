@@ -82,10 +82,10 @@ else if(urlval.indexOf("user/userPoint.do?")>=0)
 
 
 
-else if(urlval.indexOf("qktx-content/addTaskRead?")>=0)
+else if(urlval.indexOf("qktx-activity/activity/getSignDetail?")>=0)
 {
   
-  var ck_url=urlval.substring(urlval.indexOf("addTaskRead")+8,urlval.length);
+  var ck_url=urlval.substring(urlval.indexOf("getSignDetail?")+14,urlval.length);
  var so= $iosrule.write(ck_url,qktx_urlckname);if (so==true) 
  papa(tt,"[阅读ck1]","写入" + tt + "阅读数据成功");}
 
