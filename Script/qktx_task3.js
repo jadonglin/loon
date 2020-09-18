@@ -292,8 +292,8 @@ function qktx_readme()
   newnum=qktx_rid.substring(7,15);
   console.log("debugunewnum11:"+newnum)
   console.log("debugurl11111:"+qktx_urlck)
-qktx_urlck=isdefined(qktx_urlck,newnum);
-console.log("debugurl11111:"+qktx_urlck)
+//qktx_urlck=isdefined(qktx_urlck,newnum);
+
 qktx_urlrck=isdefined(qktx_urlrck,newnum);
 }
  
