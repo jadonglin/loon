@@ -224,9 +224,8 @@ console.log("debug0000000000")
           console.log("debug999999999")
           result2="[任务进度]获取失败❌"+"\n"+"[第1个宝箱]获取失败❌"+"[第2个宝箱]获取失败❌"+"\n";qktx_msg(""+"\n"+result2,qktx_nm);
         }
-// console.log("debug end")     
-
- })}
+     
+      })}
 
 function qktx_getTaskAward(flag)
 {
