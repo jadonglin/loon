@@ -1,9 +1,5 @@
 var urls=[
-<<<<<<< HEAD
 //zhongdou
-=======
-//种豆提交互助码api
->>>>>>> f72a6c8055ce62431071f8852c74866309ff01ca
 "http://api.turinglabs.net/api/v1/jd/bean/create/khqmdowxkuwyd22kbhbbodm44u/",
 "http://api.turinglabs.net/api/v1/jd/bean/create/e7lhibzb3zek3pmgxuv6hfasgturjncr4y3ca5a/",
 "http://api.turinglabs.net/api/v1/jd/bean/create/o5fzrgfqcghdz6kgnjpafga3qemex4wi6rifvfi/",
@@ -17,11 +13,7 @@ var urls=[
 "http://api.turinglabs.net/api/v1/jd/bean/create/epes65uva7oux4dlvgnottar7nxgb3lluyuhjta/",
 "http://api.turinglabs.net/api/v1/jd/bean/create/e7lhibzb3zek34yactwe3maes7xxckhibgdn3ni/",
 "http://api.turinglabs.net/api/v1/jd/bean/create/olmijoxgmjutze5pyafoogcob4jdhdic5numtpq/",
-<<<<<<< HEAD
 //nongchang
-=======
-//农场提交互助码api
->>>>>>> f72a6c8055ce62431071f8852c74866309ff01ca
 "http://api.turinglabs.net/api/v1/jd/farm/create/52eee5f1d9c7405d8df5c33a225312d6/",
 "http://api.turinglabs.net/api/v1/jd/farm/create/a75e0a0dc575494ebdd12730caa7e423/",
 "http://api.turinglabs.net/api/v1/jd/farm/create/879f1300f8c848d484189f277ffa4b42/",
@@ -35,11 +27,7 @@ var urls=[
 "http://api.turinglabs.net/api/v1/jd/farm/create/52b1eb07f5e04c38b543d1c03207af35/",
 "http://api.turinglabs.net/api/v1/jd/farm/create/4e8f5b9125b74a119f15d644db038663/",
 "http://api.turinglabs.net/api/v1/jd/farm/create/a4be6a08f5c1492793d28a3f868bf6e8/",
-<<<<<<< HEAD
 //mengchong
-=======
-//萌宠提交互助码api
->>>>>>> f72a6c8055ce62431071f8852c74866309ff01ca
 "http://api.turinglabs.net/api/v1/jd/pet/create/MTAxODcxOTI2NTAwMDAwMDAzMjQ4Mzc2NQ==/",
 "http://api.turinglabs.net/api/v1/jd/pet/create/MTAxODc2NTEzMTAwMDAwMDAzMjQ1ODY4Mw==/",
 "http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDAxNzYwMDAwMDAwMzU2MjUzMTk=/",
@@ -53,11 +41,7 @@ var urls=[
 "http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDUyMjEwMDAwMDAwNDIxMDE1OTk=/",
 "http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDQ5OTUwMDAwMDAwNDI1NzMwMTM=/",
 "http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDUwMTI0MDAwMDAwMDQyNTkyOTYx/",
-<<<<<<< HEAD
 //dongdonggongchang
-=======
-//东东工厂api
->>>>>>> f72a6c8055ce62431071f8852c74866309ff01ca
 "http://api.turinglabs.net/api/v1/jd/ddfactory/create/P04z54XCjVWnYaS5mlRWT6vlTkfz8btjoyLAHA/",
 "http://api.turinglabs.net/api/v1/jd/ddfactory/create/P04z54XCjVWnYaS5n9SWTmklzU/",
 "http://api.turinglabs.net/api/v1/jd/ddfactory/create/P04z54XCjVWnYaS5m9cZ2b62n1NlB-nRByxSCU/",             
@@ -71,11 +55,7 @@ var urls=[
 "http://api.turinglabs.net/api/v1/jd/ddfactory/create/P04z54XCjVWnYaS5jQPC2P63HRNiBRZYnwob0AM/",
 "http://api.turinglabs.net/api/v1/jd/ddfactory/create/P04z54XCjVWnYaS5m9cZ2Twi3tLkOF-AK3xXao/",
 "http://api.turinglabs.net/api/v1/jd/ddfactory/create/P04z54XCjVWnYaS5m9cZ2asjHkfw-KWBiglfnk/",
-<<<<<<< HEAD
 //jingxigongchang
-=======
-//京喜工厂：
->>>>>>> f72a6c8055ce62431071f8852c74866309ff01ca
 "http://api.turinglabs.net/api/v1/jd/jxfactory/create/kj1iZnvw5Cvhsr2GmJ13sw==/",
 "http://api.turinglabs.net/api/v1/jd/jxfactory/create/qTfgATX37pPF6NzMldVw1g==/",
 "http://api.turinglabs.net/api/v1/jd/jxfactory/create/DZ06Bx-hxsCcVr3baxRGGw==/",
