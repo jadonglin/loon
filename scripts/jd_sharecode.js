@@ -13,6 +13,8 @@ var urls=[
 "http://api.turinglabs.net/api/v1/jd/bean/create/epes65uva7oux4dlvgnottar7nxgb3lluyuhjta/",
 "http://api.turinglabs.net/api/v1/jd/bean/create/e7lhibzb3zek34yactwe3maes7xxckhibgdn3ni/",
 "http://api.turinglabs.net/api/v1/jd/bean/create/olmijoxgmjutze5pyafoogcob4jdhdic5numtpq/",
+"http://api.turinglabs.net/api/v1/jd/bean/create/wkx54sxpzacxgq4gu6afvy6paq/",
+"http://api.turinglabs.net/api/v1/jd/bean/create/caosyxxrxasx3elbrfdjcmuyr2fe2ocup5wbvpy/",
 //nongchang
 "http://api.turinglabs.net/api/v1/jd/farm/create/52eee5f1d9c7405d8df5c33a225312d6/",
 "http://api.turinglabs.net/api/v1/jd/farm/create/a75e0a0dc575494ebdd12730caa7e423/",
@@ -27,6 +29,8 @@ var urls=[
 "http://api.turinglabs.net/api/v1/jd/farm/create/52b1eb07f5e04c38b543d1c03207af35/",
 "http://api.turinglabs.net/api/v1/jd/farm/create/4e8f5b9125b74a119f15d644db038663/",
 "http://api.turinglabs.net/api/v1/jd/farm/create/a4be6a08f5c1492793d28a3f868bf6e8/",
+"http://api.turinglabs.net/api/v1/jd/farm/create/748f3c6f77a5409297d6f6f33c607116/",
+"http://api.turinglabs.net/api/v1/jd/farm/create/e88dc95dbdd84228b349e504c324d8e1/",
 //mengchong
 "http://api.turinglabs.net/api/v1/jd/pet/create/MTAxODcxOTI2NTAwMDAwMDAzMjQ4Mzc2NQ==/",
 "http://api.turinglabs.net/api/v1/jd/pet/create/MTAxODc2NTEzMTAwMDAwMDAzMjQ1ODY4Mw==/",
@@ -41,6 +45,7 @@ var urls=[
 "http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDUyMjEwMDAwMDAwNDIxMDE1OTk=/",
 "http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDQ5OTUwMDAwMDAwNDI1NzMwMTM=/",
 "http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDUwMTI0MDAwMDAwMDQyNTkyOTYx/",
+"http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDQ5OTUwMDAwMDAwNDMwMDA3ODk=/",
 //dongdonggongchang
 "http://api.turinglabs.net/api/v1/jd/ddfactory/create/P04z54XCjVWnYaS5mlRWT6vlTkfz8btjoyLAHA/",
 "http://api.turinglabs.net/api/v1/jd/ddfactory/create/P04z54XCjVWnYaS5n9SWTmklzU/",
@@ -68,6 +73,41 @@ var urls=[
 "http://api.turinglabs.net/api/v1/jd/jxfactory/create/UG29wzmYwRHt-wAGfaOYVoZs-bk3MInqg5q8MhWU9s0=/",
 "http://api.turinglabs.net/api/v1/jd/jxfactory/create/InLoOkNv8X9IMz9s81vi1Q==/",
 "http://api.turinglabs.net/api/v1/jd/jxfactory/create/mQxITCRFdU78wFCYqbZ5QA==/",
+"http://api.turinglabs.net/api/v1/jd/jxfactory/create/nrYnepK45_13dCClag9zDg==/",
+"http://api.turinglabs.net/api/v1/jd/jxfactory/create/6sUn5QR4gcDLKA7vs8E1CA==/",
+//·è¿ñµÄjoy»¥ÖúÂëapi  
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/WTg_NIsdTKtq12gDi5H5_qt9zd5YaBeE/"£¬
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/mmzE89N1KAc=/"£¬
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/ViB0BC9y0sNTpNSwa0GjP6t9zd5YaBeE/"£¬
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/1YV9M3IsC68=/"£¬
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/rbA0WZgcj5RwiiG3q0ckVw==/"£¬
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/ÖúÁ¦Âë/"£¬
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/mKWs8ldCAcNzX2E1bFY50at9zd5YaBeE/"£¬
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/B8z1fFiAvN3K-wu_K7T0OQ==/"£¬
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/lQowGmJNf71mDNFfDrbNDQ==/"£¬
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/4FzN_wNqZzQYNxwR0iEDuKt9zd5YaBeE/"£¬
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/ÖúÁ¦Âë/"£¬
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/ÖúÁ¦Âë/"£¬
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/EsXINYVaGg5wUiSKNKMFCKt9zd5YaBeE/"£¬
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/ÖúÁ¦Âë/"£¬
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/ÖúÁ¦Âë/"£¬
+//¾©¶«×¬×¬Ð¡³ÌÐò»¥ÖúÂëapi  
+"https://code.chiang.fun/api/v1/jd/jdzz/create/S4qQiHklRsAGNeUSjwKhUIw/"£¬
+"https://code.chiang.fun/api/v1/jd/jdzz/create/S9KciGUJTvA/"£¬
+"https://code.chiang.fun/api/v1/jd/jdzz/create/S5KkcRhwe9FPWdUymk6QKJQ/"£¬
+"https://code.chiang.fun/api/v1/jd/jdzz/create/S97gsHFw/"£¬
+"https://code.chiang.fun/api/v1/jd/jdzz/create/Su_lxRxcc8FbeT0c/"£¬
+"https://code.chiang.fun/api/v1/jd/jdzz/create/S5KwnH0BOqQ2J/"£¬
+"https://code.chiang.fun/api/v1/jd/jdzz/create/S5KkcREgepgDSchv0nPAJdw/"£¬
+"https://code.chiang.fun/api/v1/jd/jdzz/create/S9qQiH15IqwiCeQ/"£¬
+"https://code.chiang.fun/api/v1/jd/jdzz/create/Sv_VwRhsb9lLSIRib1A/"£¬
+"https://code.chiang.fun/api/v1/jd/jdzz/create/S5KkcRhxK_FDechqinP4IcA/"£¬
+"https://code.chiang.fun/api/v1/jd/jdzz/create/Sv_pwQxwY_VPKJx70nfQDfM4/"£¬
+"https://code.chiang.fun/api/v1/jd/jdzz/create/S5KkcRBZP8lXSJR32kKENIg/"£¬
+"https://code.chiang.fun/api/v1/jd/jdzz/create/S5KkcRkpI8AGBdhynnfdedg/"£¬
+"https://code.chiang.fun/api/v1/jd/jdzz/create/ÖúÁ¦Âë/"£¬
+"https://code.chiang.fun/api/v1/jd/jdzz/create/ÖúÁ¦Âë/"£¬
+
 ]
 urls.forEach(url => {
     $httpClient.get(url,function(error, response, data){
