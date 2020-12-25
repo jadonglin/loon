@@ -46,6 +46,7 @@ var urls=[
 "http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDQ5OTUwMDAwMDAwNDI1NzMwMTM=/",
 "http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDUwMTI0MDAwMDAwMDQyNTkyOTYx/",
 "http://api.turinglabs.net/api/v1/jd/pet/create/MTE1NDQ5OTUwMDAwMDAwNDMwMDA3ODk=/",
+"http://api.turinglabs.net/api/v1/jd/pet/create/MTAxODc2NTEzOTAwMDAwMDAyMTc2MzE4OQ==/",
 //dongdonggongchang
 "http://api.turinglabs.net/api/v1/jd/ddfactory/create/P04z54XCjVWnYaS5mlRWT6vlTkfz8btjoyLAHA/",
 "http://api.turinglabs.net/api/v1/jd/ddfactory/create/P04z54XCjVWnYaS5n9SWTmklzU/",
@@ -62,6 +63,7 @@ var urls=[
 "http://api.turinglabs.net/api/v1/jd/ddfactory/create/P04z54XCjVWnYaS5m9cZ2asjHkfw-KWBiglfnk/",
 //jingxigongchang
 "http://api.turinglabs.net/api/v1/jd/jxfactory/create/kj1iZnvw5Cvhsr2GmJ13sw==/",
+"http://api.turinglabs.net/api/v1/jd/jxfactory/create/mylLCjV__Rk9vW57GEmjyw==/",
 "http://api.turinglabs.net/api/v1/jd/jxfactory/create/qTfgATX37pPF6NzMldVw1g==/",
 "http://api.turinglabs.net/api/v1/jd/jxfactory/create/DZ06Bx-hxsCcVr3baxRGGw==/",
 "http://api.turinglabs.net/api/v1/jd/jxfactory/create/Gv2RRMavf0BvXUgx2Llrpw==/",
@@ -81,16 +83,16 @@ var urls=[
 "https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/ViB0BC9y0sNTpNSwa0GjP6t9zd5YaBeE/"£¬
 "https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/1YV9M3IsC68=/"£¬
 "https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/rbA0WZgcj5RwiiG3q0ckVw==/"£¬
-"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/ÖúÁ¦Âë/"£¬
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/gS7V4zeTyRIO5qSJz0JnZw==/"£¬
 "https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/mKWs8ldCAcNzX2E1bFY50at9zd5YaBeE/"£¬
 "https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/B8z1fFiAvN3K-wu_K7T0OQ==/"£¬
 "https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/lQowGmJNf71mDNFfDrbNDQ==/"£¬
 "https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/4FzN_wNqZzQYNxwR0iEDuKt9zd5YaBeE/"£¬
-"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/ÖúÁ¦Âë/"£¬
-"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/ÖúÁ¦Âë/"£¬
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/E1lBwlCF4x-4Ffhhl5R8QShrW-lv9zNY/"£¬
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/1lEZKI9KcZoYR7fFbLOYMat9zd5YaBeE/"£¬
 "https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/EsXINYVaGg5wUiSKNKMFCKt9zd5YaBeE/"£¬
-"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/ÖúÁ¦Âë/"£¬
-"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/ÖúÁ¦Âë/"£¬
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/ErCWih921XGrfc3eWGgXhA==/"£¬
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/LOsN9U_STr-6PD-kNuyiYw==/"£¬
 //¾©¶«×¬×¬Ð¡³ÌÐò»¥ÖúÂëapi  
 "https://code.chiang.fun/api/v1/jd/jdzz/create/S4qQiHklRsAGNeUSjwKhUIw/"£¬
 "https://code.chiang.fun/api/v1/jd/jdzz/create/S9KciGUJTvA/"£¬
@@ -105,8 +107,8 @@ var urls=[
 "https://code.chiang.fun/api/v1/jd/jdzz/create/Sv_pwQxwY_VPKJx70nfQDfM4/"£¬
 "https://code.chiang.fun/api/v1/jd/jdzz/create/S5KkcRBZP8lXSJR32kKENIg/"£¬
 "https://code.chiang.fun/api/v1/jd/jdzz/create/S5KkcRkpI8AGBdhynnfdedg/"£¬
-"https://code.chiang.fun/api/v1/jd/jdzz/create/ÖúÁ¦Âë/"£¬
-"https://code.chiang.fun/api/v1/jd/jdzz/create/ÖúÁ¦Âë/"£¬
+"https://code.chiang.fun/api/v1/jd/jdzz/create/S5qwnFV1FrAo/"£¬
+"https://code.chiang.fun/api/v1/jd/jdzz/create/SZkbMl5WXIthG9Y5jQH2A/"£¬
 
 ]
 urls.forEach(url => {
