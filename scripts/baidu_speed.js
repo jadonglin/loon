@@ -107,7 +107,7 @@ function TaskCenter() {
           tid = jingangs.jingangTid
           taskName = '【'+jingangs.jingangName+'】'
           RefererUrl = jingangs.jingangUrl
-          downtime = tasks[x].data.countDown.${tid}.countDown
+          downtime = tasks[x].data.countDown[`${jingangs.jingangTid}`].countDown
           $.log(taskName+"tid:"+tid)
          if(downtime ==0){
            await get_pkg();
