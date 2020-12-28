@@ -145,7 +145,7 @@ var result2="";
 //3.需要执行的函数都写这里
 function main()
 {
-	hs_gettreasure();
+	//hs_gettreasure();
 
 }
 
