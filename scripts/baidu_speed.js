@@ -127,7 +127,9 @@ function TaskCenter() {
             await get_pkg()
            }
           if(tasklists.type == 'watch'){
-            await get_search()
+            // $.log(tasklists.+'\n')
+             cmd =  tid==346 ? 100:184
+             await get_search()
           };
           }
          }
@@ -189,6 +191,7 @@ function get_pkg() {
        }  
     else if (get_pkg.errno == 0&&get_pkg.data.isDone ==1){
         $.desc += taskName +" 已完成\n"
+        $.log(taskName +" 已完成\n")
        } 
       else if( get_pkg.errno ==1){
      // $.log(get_pkg.msg+"(请等待，有时间间隔)\n")
@@ -232,7 +235,7 @@ function activeBox2() {
       }
    $.post(actboxurl, async(error, response, data) => {
      let act_box = JSON.parse(data)
-$.log('actbox: ' + data)
+     //$.log('actbox: ' + data)
      if (act_box.errno == 0){
          $.desc += '开宝箱获得收益: +' + act_box.data.coin
  
@@ -271,10 +274,10 @@ function Tasks() {
    $.get(taskurl, async(error, response, data) => {
      let do_task = JSON.parse(data)
         await $.wait(15000);
-       $.log(data+'\n  ')
+         //$.log(data+'\n')
      if (do_task.errno == 0){
          $.desc += taskName + do_task.data.coin +"\n"
-             $.log("获得收益 "+do_task.data.coin+'\n  ')
+         $.log("  获得收益: + "+do_task.data.coin+'\n  ')
      }  else if (do_task.errno == 19001){
         $.desc += taskName + "  "+ do_task.data.originData.msg + "\n"
       }else if (do_task.errno == 11004){
@@ -287,11 +290,11 @@ function Tasks() {
 
 function  get_search() {
   return new Promise((resolve) =>{
-   let cmd = "100"
    let geturl =  {
       url: `https://mbd.baidu.com/searchbox?action=feed&cmd=${cmd}&imgtype=webp&network=1_0&osbranch=i3&osname=baiduboxapp&ua=1242_2208_iphone_5.0.0.11_0&uid=A49D6DBEA0E8C89406AD1484C84D9134FCF6C8758FHLNHLAJSR&ut=iPhone10%2C1_14.2`,
       headers: {Cookie:cookieval}
       }
+
    $.get(geturl, async(error, resp, data) => {
      let get_search = JSON.parse(data)
           //$.log(data+'\n')
@@ -299,9 +302,9 @@ function  get_search() {
      for ( item in get_search.data[`${cmd}`].itemlist.items){
         searchId = get_search.data[`${cmd}`].itemlist.items[item].id
         searchname = get_search.data[`${cmd}`].itemlist.items[item].data.title
-         $.log("  阅读任务:"+searchname+ "\n  任务ID: "+searchId)
+         $.log(" 阅读任务: "+searchname+ "\n  任务ID: "+searchId)
          await searchBox(searchId)
-         await $.wait(15000)
+         await $.wait(30000)
         }
          //$.desc += taskName + do_search.data[`${cmd}`].tips +"\n"
      }  else {
@@ -316,20 +319,20 @@ function  get_search() {
 
 function searchBox(id) {
   return new Promise((resolve) =>{
-   let cmd = "197"
    let searchurl =  {
-      url: `https://mbd.baidu.com/searchbox?action=feed&cmd=${cmd}&imgtype=webp&network=1_0&osbranch=i3&osname=baiduboxapp&ua=1242_2208_iphone_5.0.0.11_0&uid=A49D6DBEA0E8C89406AD1484C84D9134FCF6C8758FHLNHLAJSR&ut=iPhone10%2C1_14.2`,
+      url: `https://mbd.baidu.com/searchbox?action=feed&cmd=197&imgtype=webp&network=1_0&osbranch=i3&osname=baiduboxapp&ua=1242_2208_iphone_5.0.0.11_0&uid=A49D6DBEA0E8C89406AD1484C84D9134FCF6C8758FHLNHLAJSR&ut=iPhone10%2C1_14.2`,
       headers: {Cookie:cookieval},
-      body: `data={"origin_nid":"${id}","taskid":"4"}`
+      body: `data={"origin_nid":"${id}","taskid":"${tid}"}`
       }
    $.post(searchurl, async(error, resp, data) => {
      let do_search = JSON.parse(data)
           //$.log(data+'\n')
-     if (do_search.errno == 0 && do_search.data[`${cmd}`].istip == 1) {
-            $.log("获得收益: " +do_search.data[`${cmd}`].tips+'\n')
-         //$.desc +=  do_search.data[`${cmd}`].tips +"\n"
-     }  else {$.log("\n")}
-
+     if (do_search.errno == 0 && do_search.data[`197`].istip == 1) {
+        $.log("  获得收益: " +do_search.data[`197`].tips+'\n')
+         //$.desc +=  do_search.data[`197`].tips +"\n"
+     }  else {
+        //$.log("\n")
+      }
     resolve()
    })
   })
