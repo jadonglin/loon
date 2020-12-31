@@ -97,6 +97,8 @@ var urls=[
 "https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/EsXINYVaGg5wUiSKNKMFCKt9zd5YaBeE/"，
 "https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/ErCWih921XGrfc3eWGgXhA==/"，
 "https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/LOsN9U_STr-6PD-kNuyiYw==/"，
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/CU-4XL55rg6No7tquxFmf6t9zd5YaBeE/"，
+"https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/CNvu7MIGAgaAkR0ePKnc2at9zd5YaBeE/"，
 //京东赚赚小程序互助码api  
 "https://code.chiang.fun/api/v1/jd/jdzz/create/S4qQiHklRsAGNeUSjwKhUIw/"，
 "https://code.chiang.fun/api/v1/jd/jdzz/create/S9KciGUJTvA/"，
