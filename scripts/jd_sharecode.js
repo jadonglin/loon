@@ -81,7 +81,7 @@ var urls=[
 "http://api.turinglabs.net/api/v1/jd/jxfactory/create/mQxITCRFdU78wFCYqbZ5QA==/",
 "http://api.turinglabs.net/api/v1/jd/jxfactory/create/nrYnepK45_13dCClag9zDg==/",
 "http://api.turinglabs.net/api/v1/jd/jxfactory/create/6sUn5QR4gcDLKA7vs8E1CA==/",
-//·è¿ñµÄjoy»¥ÖúÂëapi  
+//crazy_joy
 "https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/WTg_NIsdTKtq12gDi5H5_qt9zd5YaBeE/"£¬
 "https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/mmzE89N1KAc=/"£¬
 "https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/ViB0BC9y0sNTpNSwa0GjP6t9zd5YaBeE/"£¬
@@ -99,7 +99,7 @@ var urls=[
 "https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/LOsN9U_STr-6PD-kNuyiYw==/"£¬
 "https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/CU-4XL55rg6No7tquxFmf6t9zd5YaBeE/"£¬
 "https://code.chiang.fun/api/v1/jd/jdcrazyjoy/create/CNvu7MIGAgaAkR0ePKnc2at9zd5YaBeE/"£¬
-//¾©¶«×¬×¬Ð¡³ÌÐò»¥ÖúÂëapi  
+//jd_zz  
 "https://code.chiang.fun/api/v1/jd/jdzz/create/S4qQiHklRsAGNeUSjwKhUIw/"£¬
 "https://code.chiang.fun/api/v1/jd/jdzz/create/S9KciGUJTvA/"£¬
 "https://code.chiang.fun/api/v1/jd/jdzz/create/S5KkcRhwe9FPWdUymk6QKJQ/"£¬
