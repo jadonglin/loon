@@ -80,3 +80,6 @@ pt_key=AAJgCTWBADBTcLw0COiD76SdBV4ewTEfjwyoEe3m_XL3LGYWQpTLk99G2aabaiAdCRB_5E2GL
 logs20:
 pengjing:
 pt_key=AAJgD6y1ADABO3LWkrXowILNRZ4DPWRByJDjcHNkhszOc6BDEj1-2K_JUhEGdRyz1S9fcRS8cos; pt_pin=%E6%88%91%E6%98%AF%E6%99%B6%E6%99%B679;
+
+logs21:
+pt_key=AAJgD-VKADAVcPG4dvh9g4PeoNts82lQx4lnRlr2Is-hgqmCof-NxIwo18boG5UUq5lgiJPsJiU; pt_pin=wq99428; 
