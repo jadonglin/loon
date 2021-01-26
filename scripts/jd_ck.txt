@@ -76,3 +76,7 @@ pt_key=AAJgCS4dADBE6wi32wJWPBnu6nmne_1I1HQKqgvboeS_HwEuNNVNn4M1IpeRR8Ts8ujilo8Sg
 logs19:
 jiahuiya:  20210121
 pt_key=AAJgCTWBADBTcLw0COiD76SdBV4ewTEfjwyoEe3m_XL3LGYWQpTLk99G2aabaiAdCRB_5E2GLeM; pt_pin=jd_ZufdNdduiqaA;
+
+logs20:
+pengjing:
+pt_key=AAJgD6y1ADABO3LWkrXowILNRZ4DPWRByJDjcHNkhszOc6BDEj1-2K_JUhEGdRyz1S9fcRS8cos; pt_pin=%E6%88%91%E6%98%AF%E6%99%B6%E6%99%B679;
