@@ -2,5 +2,6 @@
 # 起点读书获取广告/任务信息
 https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/finishWatch url script-request-body https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.cookie.js 
 https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/mainPage url script-response-body https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.taskId.js 
+https://m5.amap.com/ws/alice/activity/daily_sign/do_sign url script-request-body https://raw.githubusercontent.com/Crazy-Z7/Task/main/GDTu.js
 
-hostname = yunbusiness.ccb.com, h5.if.qidian.com
+hostname = yunbusiness.ccb.com, h5.if.qidian.com,m5.amap.com
