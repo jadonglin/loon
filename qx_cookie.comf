@@ -5,5 +5,6 @@ https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/mainPage url script-
 https://m5.amap.com/ws/alice/activity/daily_sign/do_sign url script-request-body https://raw.githubusercontent.com/Crazy-Z7/Task/main/GDTu.js
 ^https?:\/\/hweb-personalcenter\.huazhu\.com\/login\/autoLogin$ url script-request-header https://raw.githubusercontent.com/wf021325/qx/master/task/hzh.js
 ^https?:\/\/dm\.yeemiao\.com\/common\/newmsg\/getUnReadTotalNum$ url script-request-header https://raw.githubusercontent.com/wf021325/qx/master/task/xdm.js
+https://api.tuhu.cn/User/GetInternalCenterInfo url script-request-header https://raw.githubusercontent.com/Crazy-Z7/Task/main/Tuhyche.js
 
-hostname = yunbusiness.ccb.com, h5.if.qidian.com,m5.amap.com,hweb-personalcenter.huazhu.com,dm.yeemiao.com
+hostname = yunbusiness.ccb.com, h5.if.qidian.com,m5.amap.com,hweb-personalcenter.huazhu.com,dm.yeemiao.com,api.tuhu.cn
