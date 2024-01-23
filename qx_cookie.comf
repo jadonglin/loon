@@ -6,5 +6,7 @@ https://m5.amap.com/ws/alice/activity/daily_sign/do_sign url script-request-body
 ^https?:\/\/hweb-personalcenter\.huazhu\.com\/login\/autoLogin$ url script-request-header https://raw.githubusercontent.com/wf021325/qx/master/task/hzh.js
 ^https?:\/\/dm\.yeemiao\.com\/common\/newmsg\/getUnReadTotalNum$ url script-request-header https://raw.githubusercontent.com/wf021325/qx/master/task/xdm.js
 https://api.tuhu.cn/User/GetInternalCenterInfo url script-request-header https://raw.githubusercontent.com/Crazy-Z7/Task/main/Tuhyche.js
+#阿里云
+^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token url script-request-body https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js
 
-hostname = yunbusiness.ccb.com, h5.if.qidian.com,m5.amap.com,hweb-personalcenter.huazhu.com,dm.yeemiao.com,api.tuhu.cn
+hostname = yunbusiness.ccb.com, h5.if.qidian.com,m5.amap.com,hweb-personalcenter.huazhu.com,dm.yeemiao.com,api.tuhu.cn,auth.alipan.com,auth.aliyundrive.com
