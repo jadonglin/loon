@@ -10,5 +10,7 @@ https://api.tuhu.cn/User/GetInternalCenterInfo url script-request-header https:/
 ^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token url script-request-body https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js
 ^https?:\/\/notability\.com\/(global|subscriptions) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/notability.js
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes.js
+#12123
+^https:\/\/miniappcsfw\.122\.gov\.cn:8443\/openapi\/invokeApi\/business\/biz url script-request-body https://raw.githubusercontent.com/dompling/Script/master/12123/index.js
 
-hostname = yunbusiness.ccb.com, h5.if.qidian.com,m5.amap.com,hweb-personalcenter.huazhu.com,dm.yeemiao.com,api.tuhu.cn,auth.alipan.com,auth.aliyundrive.com,notability.com,buy.itunes.apple.com
+hostname = miniappcsfw.122.gov.cn:8443,yunbusiness.ccb.com, h5.if.qidian.com,m5.amap.com,hweb-personalcenter.huazhu.com,dm.yeemiao.com,api.tuhu.cn,auth.alipan.com,auth.aliyundrive.com,notability.com,buy.itunes.apple.com
