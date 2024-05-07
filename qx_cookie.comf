@@ -17,5 +17,8 @@ https://api.tuhu.cn/User/GetInternalCenterInfo url script-request-header https:/
 ^https?:\/\/osg-open\.sgcc\.com\.cn\/osg-open-p0001\/member\/c5\/f05 url script-request-header https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/95598/95598.weapp.js
 # 获取联通cookie
 ^https:\/\/m\.client\.10010\.com\/serviceimportantbusiness\/smart\/smartwisdomCommonNew  url script-request-header https://raw.githubusercontent.com/dompling/Script/master/10010/index.js
+#qq音乐
+https://c6.y.qq.com/shop/fcgi-bin/fcg_get_order? url script-request-header https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/qqMusic.js
+https://u6.y.qq.com/cgi-bin/musics.fcg? url script-request-header https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/qqMusic.js
 
-hostname = act.10010.com, m.client.10010.com,osg-open.sgcc.com.cn,miniappcsfw.122.gov.cn,yunbusiness.ccb.com, h5.if.qidian.com,m5.amap.com,hweb-personalcenter.huazhu.com,dm.yeemiao.com,api.tuhu.cn,auth.alipan.com,auth.aliyundrive.com,notability.com,buy.itunes.apple.com
+hostname = *.y.qq.com,act.10010.com, m.client.10010.com,osg-open.sgcc.com.cn,miniappcsfw.122.gov.cn,yunbusiness.ccb.com, h5.if.qidian.com,m5.amap.com,hweb-personalcenter.huazhu.com,dm.yeemiao.com,api.tuhu.cn,auth.alipan.com,auth.aliyundrive.com,notability.com,buy.itunes.apple.com
