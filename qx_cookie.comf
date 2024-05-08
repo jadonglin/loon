@@ -1,7 +1,7 @@
 ^https:\/\/yunbusiness\.ccb\.com\/clp_coupon\/txCtrl\?txcode=A3341A040 url script-request-body https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js
-# 起点读书获取广告/任务信息
-https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/finishWatch url script-request-body https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.cookie.js 
-https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/mainPage url script-response-body https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.taskId.js 
+# 获取起点读书任务需要的各项参数
+https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/finishWatch url script-request-body https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.cookie.js
+https\:\/\/h5\.if\.qidian\.com\/argus\/api\/v1\/video\/adv\/mainPage url script-response-body https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/qidian/qidian.taskId.js
 https://m5.amap.com/ws/alice/activity/daily_sign/do_sign url script-request-body https://raw.githubusercontent.com/Crazy-Z7/Task/main/GDTu.js
 ^https?:\/\/hweb-personalcenter\.huazhu\.com\/login\/autoLogin$ url script-request-header https://raw.githubusercontent.com/wf021325/qx/master/task/hzh.js
 ^https?:\/\/dm\.yeemiao\.com\/common\/newmsg\/getUnReadTotalNum$ url script-request-header https://raw.githubusercontent.com/wf021325/qx/master/task/xdm.js
@@ -20,5 +20,34 @@ https://api.tuhu.cn/User/GetInternalCenterInfo url script-request-header https:/
 #qq音乐
 https://c6.y.qq.com/shop/fcgi-bin/fcg_get_order? url script-request-header https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/qqMusic.js
 https://u6.y.qq.com/cgi-bin/musics.fcg? url script-request-header https://raw.githubusercontent.com/WowYiJiu/Personal/main/Script/qqMusic.js
+# 获取有赞小程序签到需要的各项参数
+https://h5.youzan.com/wscump/checkin/get_activity_by_yzuid_v2.json.+ url script-response-header https://gist.githubusercontent.com/Sliverkiss/585daf69a0a6c7243db8993f5394a124/raw/youzan.js
+# 获取霸王茶姬签到需要的各项参数
+^https:\/\/(webapi|webapi2|qmwebapi)\.qmai\.cn\/web\/(catering|catering2-apiserver)\/crm\/points-info url script-request-header https://gist.githubusercontent.com/Sliverkiss/4984f7f34d6df8bcdd1e13ecac4bba51/raw/bwcj.js
+# 获取杜蕾斯会员中心签到需要的各项参数
+^https:\/\/vip\.ixiliu\.cn\/mp\/user\/info$ url script-request-header https://raw.githubusercontent.com/czy13724/Quantumult-X/main/scripts/dls.js
+# 获取蒙牛母婴签到需要的各项参数
+https:\/\/xapi\.weimob\.com\/api3(?:\/.*)?$ url script-request-header https://raw.githubusercontent.com/czy13724/Quantumult-X/main/scripts/mnmy.js
+# 获取星星充电需要的各项参数
+^https:\/\/gateway\.starcharge\.com\/apph5\/xcxApiV2\/wechat\/starPoint\/sign url script-request-header https://raw.githubusercontent.com/shengetui/qx/main/xxcd.js
+# 获取杰士邦签到需要的各项参数
+^https:\/\/vip\.ixiliu\.cn\/mp\/user\/info url script-response-body https://gist.githubusercontent.com/Sliverkiss/6d15658e313eee254a55d2b97933587c/raw/jsb.js
+# 获取益禾堂签到需要的各项参数
+^https:\/\/(webapi|webapi2|qmwebapi)\.qmai\.cn\/web\/(catering|catering2-apiserver)\/crm\/points-info url script-request-header https://gist.githubusercontent.com/Sliverkiss/df5dbbf01bc3acc3bccaf7880acd242b/raw/yht.js
+# 唯品会获取Cookie
+^https:\/\/act-ug\.vip\.com\/signIn\/info url script-request-body https://raw.githubusercontent.com/panghujiajia/Scripts/master/WPH/Scripts/GetCookie.js
+^https:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/user\/get_session\/v1 url script-request-body https://raw.githubusercontent.com/panghujiajia/Scripts/master/WPH/Scripts/GetCookie.js
+# 获取柠季签到需要的各项参数
+^https?:\/\/pos\.meituan\.com\/api\/v1\/crm\/frontend\/campaign\/display url script-response-body https://raw.githubusercontent.com/leiyiyan/resource/main/script/ningji/ningji.js
+#永旺签到
+https:\/\/api\.aeonbuy\.com\/api\/access-auth-api\/auth\/third\/silentWechatMiniLogin url script-response-body https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/aeon_sign.js
+# 获取丘大叔柠檬茶需要的各项参数
+^https:\/\/(webapi|webapi2|qmwebapi)\.qmai\.cn\/web\/(catering|catering2-apiserver)\/crm\/points-info url script-request-header https://gist.githubusercontent.com/Sliverkiss/f1b7aa36b15506d6b6f895585b000fa2/raw/qdsnmc.js
+#哈根达斯
+^https:\/\/hgds-crm\.myaiwecom\.com\/api\/wxapp\/member\/getMemberDetail url script-response-body https://raw.githubusercontent.com/xzxxn777/Surge/main/Script/HGDS/HGDS.js
+#奈雪的茶
+^https:\/\/tm-web\.pin-dao\.cn\/user\/base-userinfo script-request-body https://gist.githubusercontent.com/Sliverkiss/4d0e9572b99530b7cb0e7298622aa2a9/raw/naixue.js
+# 获取康佰家签到需要的各项参数
+^https:\/\/app.fjxzj.com\/wxscrm\/api\/member.php\?api=myintegralall url script-request-header https://gist.githubusercontent.com/Sliverkiss/48154e5277d87f9810d6b13b2b98f12a/raw/kbj.js
 
-hostname = *.y.qq.com,act.10010.com, m.client.10010.com,osg-open.sgcc.com.cn,miniappcsfw.122.gov.cn,yunbusiness.ccb.com, h5.if.qidian.com,m5.amap.com,hweb-personalcenter.huazhu.com,dm.yeemiao.com,api.tuhu.cn,auth.alipan.com,auth.aliyundrive.com,notability.com,buy.itunes.apple.com
+hostname = app.fjxzj.com,tm-web.pin-dao.cn,hgds-crm.myaiwecom.com,api.aeonbuy.com,pos.meituan.com,act-ug.vip.com, mapi.appvipshop.com,vip.ixiliu.cn,gateway.starcharge.com,xapi.weimob.com,vip.ixiliu.cn,qmwebapi.qmai.cn,webapi.qmai.cn,webapi2.qmai.cn,h5.youzan.com,*.y.qq.com,act.10010.com, m.client.10010.com,osg-open.sgcc.com.cn,miniappcsfw.122.gov.cn,yunbusiness.ccb.com, h5.if.qidian.com,m5.amap.com,hweb-personalcenter.huazhu.com,dm.yeemiao.com,api.tuhu.cn,auth.alipan.com,auth.aliyundrive.com,notability.com,buy.itunes.apple.com
