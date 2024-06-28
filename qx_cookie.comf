@@ -53,5 +53,21 @@ https:\/\/api\.aeonbuy\.com\/api\/access-auth-api\/auth\/third\/silentWechatMini
 ^https:\/\/tm-web\.pin-dao\.cn\/user\/base-userinfo script-request-body https://gist.githubusercontent.com/Sliverkiss/4d0e9572b99530b7cb0e7298622aa2a9/raw/naixue.js
 # 获取康佰家签到需要的各项参数
 ^https:\/\/app.fjxzj.com\/wxscrm\/api\/member.php\?api=myintegralall url script-request-header https://gist.githubusercontent.com/Sliverkiss/48154e5277d87f9810d6b13b2b98f12a/raw/kbj.js
+#极氪汽车签到
+^https:\/\/api-gw-toc\.zeekrlife\.com\/zeekrlife-app-user\/v\d\/user\/info\/query$ url script-response-body https://raw.githubusercontent.com/wf021325/qx/master/task/zeekr.js
+#沃尔沃汽车签到
+^https:\/\/apigateway\.digitalvolvo\.com\/app/iam\/api\/v\d\/(auth$|refreshToken=) url script-response-body https://raw.githubusercontent.com/wf021325/qx/master/task/volvo.js
+#东风日产签到
+^https?:\/\/oneapph5\.dongfeng-nissan\.com\.cn\/mb-gw\/dndc-gateway\/community\/api\/v2\/user$ url script-response-body https://raw.githubusercontent.com/wf021325/qx/master/task/nissan.js
+#捷途汽车
+^https?:\/\/mobile-consumer\.jetour\.com\.cn\/registerPush\?access_token= url script-request-header https://raw.githubusercontent.com/wf021325/qx/master/task/jetour.js
+#吉利汽车签到
+^https?:\/\/app\.geely\.com\/my\/getMyCenterCounts$ url script-response-body https://raw.githubusercontent.com/wf021325/qx/master/task/geely.js
+#非凡汽车小程序签到
+^https:\/\/apps\.risingauto\.com\/api\/energy\/task\/r\/mini\/signInState\?brandCode=\d$ url script-request-header https://raw.githubusercontent.com/wf021325/qx/master/task/ffqc.js
+#上汽大众
+^https?:\/\/api\.mos\.csvw\.com\/mos\/security\/api\/v1\/app\/at\/actions\/refresh$ url script-request-header https://raw.githubusercontent.com/wf021325/qx/master/task/csvw.js
+# 这是屏蔽旧版APP弹出更新的，开启重写可以使用旧版
+^https?:\/\/api\.mos\.csvw\.com\/mos\/app-update\/api\/v1\/app\/update$ url reject-dict
 
-hostname = app.fjxzj.com,tm-web.pin-dao.cn,hgds-crm.myaiwecom.com,api.aeonbuy.com,pos.meituan.com,act-ug.vip.com, mapi.appvipshop.com,vip.ixiliu.cn,gateway.starcharge.com,xapi.weimob.com,vip.ixiliu.cn,qmwebapi.qmai.cn,webapi.qmai.cn,webapi2.qmai.cn,h5.youzan.com,*.y.qq.com,act.10010.com, m.client.10010.com,osg-open.sgcc.com.cn,miniappcsfw.122.gov.cn,yunbusiness.ccb.com, h5.if.qidian.com,m5.amap.com,hweb-personalcenter.huazhu.com,dm.yeemiao.com,api.tuhu.cn,auth.alipan.com,auth.aliyundrive.com,notability.com,buy.itunes.apple.com
+hostname = api.mos.csvw.com,apps.risingauto.com,app.geely.com,mobile-consumer.jetour.com.cn,oneapph5.dongfeng-nissan.com.cn,apigateway.digitalvolvo.com,api-gw-toc.zeekrlife.com,app.fjxzj.com,tm-web.pin-dao.cn,hgds-crm.myaiwecom.com,api.aeonbuy.com,pos.meituan.com,act-ug.vip.com, mapi.appvipshop.com,vip.ixiliu.cn,gateway.starcharge.com,xapi.weimob.com,vip.ixiliu.cn,qmwebapi.qmai.cn,webapi.qmai.cn,webapi2.qmai.cn,h5.youzan.com,*.y.qq.com,act.10010.com, m.client.10010.com,osg-open.sgcc.com.cn,miniappcsfw.122.gov.cn,yunbusiness.ccb.com, h5.if.qidian.com,m5.amap.com,hweb-personalcenter.huazhu.com,dm.yeemiao.com,api.tuhu.cn,auth.alipan.com,auth.aliyundrive.com,notability.com,buy.itunes.apple.com
