@@ -11,7 +11,7 @@ https://api.tuhu.cn/User/GetInternalCenterInfo url script-request-header https:/
 ^https?:\/\/notability\.com\/(global|subscriptions) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/notability.js
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes.js
 #12123
-^https:\/\/miniappcsfw\.122\.gov\.cn:8443\/openapi\/invokeApi\/business\/biz url script-request-body https://raw.githubusercontent.com/dompling/Script/master/12123/index.js
+#^https:\/\/miniappcsfw\.122\.gov\.cn:8443\/openapi\/invokeApi\/business\/biz url script-request-body https://raw.githubusercontent.com/dompling/Script/master/12123/index.js
 ^https:\/\/miniappcsfw\.122\.gov\.cn:8443\/openapi\/invokeApi\/business\/biz url script-request-body https://gitcode.net/4qiao/scriptable/raw/master/quanX/getToken_12123.js
 #网上国网
 ^https?:\/\/osg-open\.sgcc\.com\.cn\/osg-open-p0001\/member\/c5\/f05 url script-request-header https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/95598/95598.weapp.js
